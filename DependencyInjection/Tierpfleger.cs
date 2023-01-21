@@ -18,5 +18,10 @@ namespace DependencyInjection
         {
             return hund;
         }
+
+        public void setHund(Hund h)
+        {
+            hund = h;          
+        }
     }
 }
